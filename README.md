@@ -28,7 +28,7 @@ PALMS is a fully analog hardware platform designed to locate an underwater acous
 - Low-power, Mission-critical Operations — extended deployment with minimal computational load
 
 ## Repository Structure
-Documentation/
+[Documentation](../Documentation)
 
 BLANK/
 
