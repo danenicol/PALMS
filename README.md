@@ -4,7 +4,7 @@
 # PALMS
 Passive Analog Localization via Multilateration System
 
-Designed by: Dane Nicol @SDSUMechatronics Electrical Team
+Designed by: Dane Nicol @SDSUMechatronics
 
 August 14th, 2025
 
