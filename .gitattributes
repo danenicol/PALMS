@@ -1,0 +1,2 @@
+Documentation/** -linguist-documentation
+Documentation/**/*.c linguist-language=C
