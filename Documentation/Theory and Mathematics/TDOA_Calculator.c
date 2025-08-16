@@ -3,9 +3,13 @@
 #include <stdio.h>
 #include <math.h>
 
-#define SPEED_SOUND 1482.0       // m/s in freshwater (since UAV will more likely be in pool envrionment)
-#define SPACING_FT 1.0           // hydrophone spacing in feet
-#define FT_TO_M 0.3048           // ft to m conversion
+// m/s in freshwater (since UAV will more likely be in pool envrionment)
+#define SPEED_SOUND 1482.0
+// hydrophone spacing in feet
+#define SPACING_FT 1.0      
+// ft to m conversion
+#define FT_TO_M 0.3048        
+// pie
 #define PI 3.14159265358979323846
 
 int main() {
