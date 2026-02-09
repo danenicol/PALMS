@@ -1,5 +1,5 @@
 ### Bandpass/amplification stage:
-
+This stage is first fitted with a simple voltage buffer due to the very high impedance hydrophone transducer, where heavy loading can harm the integrity of the original signal. To bandpass the signal, I used a state variable filter with switches controlling the Rf1 anf Rf2 resistances, hence controlling the bandpass center frequency. 
 <img width="1266" height="962" alt="Screenshot from 2025-08-16 16-46-14" src="https://github.com/user-attachments/assets/f092d7c9-7dc8-43c1-ac19-d6bf5eb46c57" />
 <img width="2502" height="680" alt="Screenshot from 2025-08-16 16-47-18" src="https://github.com/user-attachments/assets/4617cdeb-3563-43ee-bbf7-f9cf3e47a31d" />
 <img width="1634" height="915" alt="Screenshot from 2025-08-16 16-47-49" src="https://github.com/user-attachments/assets/f8b0f99c-1cc6-4591-a585-715022148007" />
