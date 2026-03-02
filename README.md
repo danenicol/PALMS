@@ -9,16 +9,16 @@ Designed by: Dane Nicol @SDSUMechatronics
 August 14th, 2025
 
 ## Abstract
-PALMS is a fully analog hardware platform designed to locate an underwater acoustic pingers by measuring the time difference of arrival (TDOA) of its signal at three spatially separated hydrophones. The system isolates pinger frequencies at design-specific 20 kHz, 25 kHz, 30 kHz, 35 kHz, and 40 kHz, with automatic adjustment for range and pulse frequency (with best performance ranging from 0.5 s to 2 s). PALMS allows for instantaneous directional guidance for autonomous underwater vehicles (AUVs) completely void of all digital filtering or processing, being a fully analog system, with minimal digital control needed. 
+The following document presents a comprehensive technical analysis of the design and implementation of an analog front-end detection system for underwater acoustic pingers. The system isolates pinger frequencies at design-specific 20 kHz, 25 kHz, 30 kHz, 35 kHz, and 40 kHz, with automatic adjustment for range and pulse frequency (with best performance ranging from 0.5 s to 2 s). PALMS allows for instantaneous directional guidance for autonomous underwater vehicles (AUVs) completely void of all digital filtering or processing, being a fully analog system, with minimal digital control needed. The most technical emphasis will be for the second-order state variable filter (SVF), with a primary focus on its bandpass behavior. Starting from the canonical transfer function, this analysis will derive the relevant characteristics to fully understand the behavior of the SVF. The analysis highlights the decoupled control of center frequency and quality factor inherent to the state variable topology, demonstrating its suitability for high-selectivity narrowband filtering applications. Theoretical results provide a complete framework for predicting steady-state frequency response, transient behavior, and practical implementation performance.
 
-## Features
-- **3 Hydrophone Inputs** for 3D spatial detection
-- **Analog Bandpass Filtering** using a custom second-order State Variable Filter with multi-frequency bandpass selection via CMOS-switched resistor banks
-- **High-Q Design** for precise frequency isolation, giving sufficient room for analog differentiation between various signals
-- **Multilateralization** to compute position from TDOA data
-- **Dual-axis Arming/Disarming Logic** with Horizontal control (compares hydrophone A vs B) and vertical control (compares hydrophone B vs C)
-- **Analog SR Latch Control** for basic AUV movement commands (right/left, ascend/descend)
-- **Minimal Digital Overhead** only basic state reading and control; all signal analysis is analog
+## Introduction
+Underwater acoustic localization relies on detecting narrowband pulsed signals emitted by pingers at known frequencies. In high-noise aquatic environments, robust detection requires selective filtering, stable gain control, and reliable pulse discrimination. While digital signal processing is common in such applications, this project explores a predominantly analog approach to minimize latency, reduce computational burden, and maintain deterministic timing behavior. The objective of this system is to convert weak hydrophone transducer outputs into clean digital pulses corresponding only to valid pinger signals within a controlled frequency band. By implementing frequency selection, envelope detection, and timing comparison entirely in analog hardware, the system provides immediate directional logic signals to an embedded controller. The design emphasizes precision, tunability, and temporal discrimination, ensuring that the strongest signal within the selected frequency band is preferentially detected and used for navigation decisions.
+
+## System Design
+LINK
+
+## Simulation Results
+LINK
 
 ## Applications
 - Autonomous Underwater Vehicle Navigation — fast reaction without microcontroller latency
@@ -27,11 +27,3 @@ PALMS is a fully analog hardware platform designed to locate an underwater acous
 - Shallow and Deep-water Robotics — robust against EMI and digital processing bottlenecks
 - Low-power, Mission-critical Operations — extended deployment with minimal computational load
 
-## Repository Structure
-[Documentation](../Documentation)
-
-BLANK/
-
-BLANK/
-
-BLANK/
