@@ -20,6 +20,12 @@ LINK
 ## Simulation Results
 LINK
 
+## PCB Design
+COMINNG
+
+## Application in UAV Results
+COMING SOON
+
 ## Applications
 - Autonomous Underwater Vehicle Navigation — fast reaction without microcontroller latency
 - Acoustic Beacon Tracking — recover lost gear or tagged marine life
@@ -27,3 +33,8 @@ LINK
 - Shallow and Deep-water Robotics — robust against EMI and digital processing bottlenecks
 - Low-power, Mission-critical Operations — extended deployment with minimal computational load
 
+## References
+LINK
+
+## Datasheets
+LINK
