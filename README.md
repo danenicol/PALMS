@@ -14,16 +14,13 @@ The following document presents a comprehensive technical analysis of the design
 ## Introduction
 Underwater acoustic localization relies on detecting narrowband pulsed signals emitted by pingers at known frequencies. In high-noise aquatic environments, robust detection requires selective filtering, stable gain control, and reliable pulse discrimination. While digital signal processing is common in such applications, this project explores a predominantly analog approach to minimize latency, reduce computational burden, and maintain deterministic timing behavior. The objective of this system is to convert weak hydrophone transducer outputs into clean digital pulses corresponding only to valid pinger signals within a controlled frequency band. By implementing frequency selection, envelope detection, and timing comparison entirely in analog hardware, the system provides immediate directional logic signals to an embedded controller. The design emphasizes precision, tunability, and temporal discrimination, ensuring that the strongest signal within the selected frequency band is preferentially detected and used for navigation decisions.
 
-## System Design
-LINK
-
-## Simulation Results
-LINK
+## System Design && Simulation Results
+[Click here!](<Documentation/PALMS System Design.pdf>)
 
 ## PCB Design
 COMINNG
 
-## Application in UAV Results
+## Application in AUV Results
 COMING SOON
 
 ## Applications
@@ -32,9 +29,6 @@ COMING SOON
 - Diver Position Monitoring — safety and guidance
 - Shallow and Deep-water Robotics — robust against EMI and digital processing bottlenecks
 - Low-power, Mission-critical Operations — extended deployment with minimal computational load
-
-## References
-LINK
 
 ## Datasheets
 LINK
