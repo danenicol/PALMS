@@ -19,8 +19,12 @@ The following document presents a comprehensive technical analysis of the design
 [Click here to view the full Documentation](<Documentation/PALMS System Design.pdf>)
 
 ## PCB Design
-Iteration #1
+Iteration #2
+<img width="1330" height="830" alt="image" src="https://github.com/user-attachments/assets/bded9ef8-4156-430c-9de0-1625a8648533" />
+<img width="1488" height="926" alt="image" src="https://github.com/user-attachments/assets/ee512297-fac5-42b8-b482-a6d2f2c35f68" />
 
+
+Iteration #1
 *Due to time constrains, design has been simplified to 2 dimensions, with TDOA signals being sent out to another computer. Analog TDOA computation circuit not included within Iteration #1
 <img width="865" height="855" alt="Screenshot_select-area_20260617214514" src="https://github.com/user-attachments/assets/655632af-a68f-4b6b-8826-0a62339a6d83" />
 <img width="808" height="795" alt="Screenshot_select-area_20260617214440" src="https://github.com/user-attachments/assets/6bff4bd0-72a9-457a-b9cf-3f34595aad24" />
