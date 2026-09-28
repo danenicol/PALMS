@@ -29,6 +29,10 @@ Iteration #1
 <img width="865" height="855" alt="Screenshot_select-area_20260617214514" src="https://github.com/user-attachments/assets/655632af-a68f-4b6b-8826-0a62339a6d83" />
 <img width="808" height="795" alt="Screenshot_select-area_20260617214440" src="https://github.com/user-attachments/assets/6bff4bd0-72a9-457a-b9cf-3f34595aad24" />
 
+Older Design (Decommissioned)
+<img width="847" height="1652" alt="Screenshot_select-area_20260927210900" src="https://github.com/user-attachments/assets/578c547d-02be-44af-8669-35e6505c3137" />
+<img width="920" height="1796" alt="Screenshot_select-area_20260927211105" src="https://github.com/user-attachments/assets/19068c66-2568-429d-ab20-8d447b24424c" />
+
 
 ## Application/Results in AUV
 COMING SOON
